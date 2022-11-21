@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DrawableTextView">
+        <attr name="drawableHeight" format="dimension"/>
+        <attr name="drawableWidth" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="ShapeView">
+        <attr name="gradientOrientation" format="flags">
+            <flag name="horizontal" value="0"/>
+            <flag name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ShapeTextView">
+        <attr name="tv_radius" format="dimension" />
+        <attr name="tv_radius_top_left" format="dimension" />
+        <attr name="tv_radius_top_right" format="dimension" />
+        <attr name="tv_radius_bottom_left" format="dimension" />
+        <attr name="tv_radius_bottom_right" format="dimension" />
+        <attr name="tv_solidColor" format="color" />
+        <attr name="tv_strokeWidth" format="dimension" />
+        <attr name="tv_strokeColor" format="color" />
+        <!--press-->
+        <attr name="tv_pressSolidColor" format="color" />
+        <!--selected-->
+        <attr name="tv_selectedStrokeColor" format="color" />
+        <attr name="tv_selectedSolidColor" format="color" />
+        <attr name="tv_selectedTextColor" format="color" />
+        <attr name="tv_startColor" format="color"/>
+        <attr name="tv_endColor" format="color"/>
+
+    </declare-styleable>
+    <declare-styleable name="ShapeRelativeLayout">
+        <attr name="rl_radius" format="dimension" />
+        <attr name="rl_radius_top_left" format="dimension" />
+        <attr name="rl_radius_top_right" format="dimension" />
+        <attr name="rl_radius_bottom_left" format="dimension" />
+        <attr name="rl_radius_bottom_right" format="dimension" />
+        <attr name="rl_solidColor" format="color" />
+        <attr name="rl_strokeWidth" format="dimension" />
+        <attr name="rl_strokeColor" format="color" />
+        <!--press-->
+        <attr name="rl_pressSolidColor" format="color" />
+        <!--selected-->
+        <attr name="rl_selectedStrokeColor" format="color" />
+        <attr name="rl_selectedSolidColor" format="color" />
+        <attr name="rl_startColor" format="color"/>
+        <attr name="rl_endColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="ShapeLinearLayout">
+        <attr name="ll_radius" format="dimension" />
+        <attr name="ll_radius_top_left" format="dimension" />
+        <attr name="ll_radius_top_right" format="dimension" />
+        <attr name="ll_radius_bottom_left" format="dimension" />
+        <attr name="ll_radius_bottom_right" format="dimension" />
+        <attr name="ll_solidColor" format="color" />
+        <attr name="ll_strokeWidth" format="dimension" />
+        <attr name="ll_strokeColor" format="color" />
+        <!--press-->
+        <attr name="ll_pressSolidColor" format="color" />
+        <!--selected-->
+        <attr name="ll_selectedStrokeColor" format="color" />
+        <attr name="ll_selectedSolidColor" format="color" />
+        <attr name="ll_startColor" format="color"/>
+        <attr name="ll_endColor" format="color"/>
+
+    </declare-styleable>
+    <declare-styleable name="ShapeEditText">
+        <attr name="et_radius" format="dimension" />
+        <attr name="et_solidColor" format="color" />
+        <attr name="et_strokeWidth" format="dimension" />
+        <attr name="et_strokeColor" format="color" />
+        <attr name="et_startColor" format="color"/>
+        <attr name="et_endColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="ShapeConstraintLayout">
+        <attr name="cl_radius" format="dimension" />
+        <attr name="cl_radius_top_left" format="dimension" />
+        <attr name="cl_radius_top_right" format="dimension" />
+        <attr name="cl_radius_bottom_left" format="dimension" />
+        <attr name="cl_radius_bottom_right" format="dimension" />
+        <attr name="cl_solidColor" format="color" />
+        <attr name="cl_strokeWidth" format="dimension" />
+        <attr name="cl_strokeColor" format="color" />
+        <!--press-->
+        <attr name="cl_pressSolidColor" format="color" />
+        <!--selected-->
+        <attr name="cl_selectedStrokeColor" format="color" />
+        <attr name="cl_selectedSolidColor" format="color" />
+
+        <attr name="cl_startColor" format="color"/>
+        <attr name="cl_endColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShapeFrameLayout">
+        <attr name="fl_radius" format="dimension" />
+        <attr name="fl_radius_top_left" format="dimension" />
+        <attr name="fl_radius_top_right" format="dimension" />
+        <attr name="fl_radius_bottom_left" format="dimension" />
+        <attr name="fl_radius_bottom_right" format="dimension" />
+        <attr name="fl_solidColor" format="color" />
+        <attr name="fl_strokeWidth" format="dimension" />
+        <attr name="fl_strokeColor" format="color" />
+        <!--press-->
+        <attr name="fl_pressSolidColor" format="color" />
+        <!--selected-->
+        <attr name="fl_selectedStrokeColor" format="color" />
+        <attr name="fl_selectedSolidColor" format="color" />
+
+        <attr name="fl_startColor" format="color"/>
+        <attr name="fl_endColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="XTabLayout">
+        <attr name="x_tabIndicatorAnimation" format="boolean" />
+        <attr name="x_tabIndicatorColor" format="color" />
+        <attr name="x_tabIndicatorStartColor" format="color" />
+        <attr name="x_tabIndicatorEndColor" format="color" />
+        <attr name="x_tabIndicatorHeight" format="dimension" />
+        <attr name="x_tabIndicatorWidth" format="dimension" />
+        <attr name="x_tabContentStart" format="dimension" />
+        <attr name="x_tabBackground" format="reference" />
+        <attr name="x_tabMode">
+            <enum name="scrollable" value="0" />
+            <enum name="fixed" value="1" />
+        </attr>
+        <attr name="x_tabGravity">
+            <enum name="fill" value="0" />
+            <enum name="center" value="1" />
+        </attr>
+        <attr name="x_tabMinWidth" format="dimension" />
+        <attr name="x_tabMaxWidth" format="dimension" />
+        <attr name="x_tabTextAppearance" format="reference" />
+        <attr name="x_tabTextColor" format="color" />
+        <attr name="x_tabSelectedTextColor" format="color" />
+        <attr name="x_tabPaddingStart" format="dimension" />
+        <attr name="x_tabPaddingTop" format="dimension" />
+        <attr name="x_tabPaddingEnd" format="dimension" />
+        <attr name="x_tabPaddingBottom" format="dimension" />
+        <attr name="x_tabPadding" format="dimension" />
+        <attr name="x_indicatorMarginTop" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="XTabItem">
+        <attr name="android:text" />
+        <attr name="android:icon" />
+        <attr name="android:layout" />
+    </declare-styleable>
+    <declare-styleable name="QDActionBar">
+        <attr name="bar_divide_line" format="boolean"/>
+    </declare-styleable>
+</resources>
